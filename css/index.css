@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* section1 */
+#header{
+    background-image: url(../images/banner.png);
+    /* background-repeat: no-repeat; */
+    
+}
+.navbar-brand{
+    color:#DB9A64 !important;
+}
+.nav-link{
+    color:#DB9A64 !important;
+}
+.span-hero{
+    color:#DB9A64;
+}
+.butt-hov{
+   border:5px solid  #DB9A64;
+}
+.butt-hov:hover{
+    background-color: #DB9A64 !important;
+    color: white !important;
+    transition: 0.5s;
+
+}
