@@ -31,3 +31,17 @@
     background-color: #311E25;
     color: white;
 }
+#section3{
+    background-color: #3B2930;
+}
+.se3-h4{
+    color:#DB9A64 ;
+    font-weight: bold;
+}
+.se3-card{
+    border: 2px solid #DB9A64;
+    
+}
+.se3-p{
+    color: #aca9a9;
+}
