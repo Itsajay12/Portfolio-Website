@@ -56,6 +56,16 @@
     color:#DB9A64;
     
 }
+.s4-a{
+    text-decoration: none;
+    width: 12vw;
+
+}
+.s4-a:hover{
+    border-bottom: 1px solid #DB9A64;
+
+}
+
 #section5{
     background-color: #3B2930;
 }
