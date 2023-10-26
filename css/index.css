@@ -7,7 +7,7 @@
 /* section1 */
 #header{
     background-image: url(../images/banner.png);
-    /* background-repeat: no-repeat; */
+     /* background-repeat: no-repeat;   */
     
 }
 .navbar-brand{
@@ -27,6 +27,9 @@
     color: white !important;
     transition: 0.5s;
 
+}
+.hero-title{
+    font-size: 6rem;
 }
 #section2{
     background-color: #311E25;
@@ -83,10 +86,33 @@ i{
 }
 
 @media screen and (max-width: 480px) {
+    #header{
+        height: 70vh;
+        
+    }
 .img-hero{
     display: none;
 }
+.navbar-collapse{
+    padding-left:100px ;
+   
+}
+.hero-title{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+        justify-content: left;
+    
+}
+.se2-se1 h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
   }
   @media screen and (min-width:1300px) {
-    
+    .navbar-collapse{
+        display: flex;
+        justify-content: space-evenly;
+    }
   }
