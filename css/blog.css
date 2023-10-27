@@ -1,0 +1,26 @@
+.box{
+    background-color: red;
+    color: white;
+    width: 5vw;
+
+    position: relative;
+    top:-50px;
+    border-radius: 10px;
+    
+}
+.box:hover{
+    transition: 1s;
+    background-color: transparent;
+   color: #DB9A64;
+}
+.blog-side{
+    background-color: #fbf9ff;
+    
+}
+.bi{
+    cursor: pointer;
+}
+.blog-index{
+    height: 50vh;
+    width: 20vw;
+}
