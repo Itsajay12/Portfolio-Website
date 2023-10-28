@@ -36,3 +36,8 @@
     background-color: #DB9A64;
     color: white;
 }
+.input{
+    border: 1px solid grey;
+    width: 15vw;
+    height: 5vh;
+}
