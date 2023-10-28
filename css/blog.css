@@ -24,3 +24,15 @@
     height: 50vh;
     width: 20vw;
 }
+.tagbtn{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    
+    border: 1px solid rgba(0, 0, 0, 0.774);
+}
+.tagbtn:hover{
+    transition: 0.5s;
+    background-color: #DB9A64;
+    color: white;
+}
