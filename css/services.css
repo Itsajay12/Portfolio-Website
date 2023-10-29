@@ -1,3 +1,38 @@
-.hero-se2{
-   
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.hero-se2 {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 0 0 90% 90% / 10em;
+
+}
+
+.se2-h5 {
+    font-family: 'Abril Fatface', serif;
+    color: white;
+}
+.language-article{
+    font-family: 'Kalam', cursive;
+}
+
+/* xs */
+@media (min-width:475px) {}
+
+/* sm */
+@media (min-width:640px) {}
+
+/* lg */
+@media (min-width:1024px) {
+
+    .hero-se2 {
+        height: 10vh;
+    }
+
+        .se2-h5{
+
+            font-size: 3rem;
+        }
+    
+
 }
