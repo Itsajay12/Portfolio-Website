@@ -65,7 +65,14 @@
   .news-letter button {
     width: 70vw;
   }
+  .blog-start{
+    width: 80vw;
+  }
+  .ft-h2{
+    font-size:20px;
+  }
 }
+
 .box:hover {
   transition: 1s;
   background-color: transparent;
