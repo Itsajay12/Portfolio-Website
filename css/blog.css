@@ -1,12 +1,48 @@
-.box{
-    background-color: red;
-    color: white;
-    width: 5vw;
-
-    position: relative;
-    top:-50px;
-    border-radius: 10px;
+@media screen and (min-width:1300px) {
     
+    .box{
+        background-color: red;
+        color: white;
+        width: 5vw;
+    
+        position: relative;
+        top:-50px;
+        border-radius: 10px;
+        
+    }
+    .blog-index{
+        height: 50vh;
+        width: 20vw;
+    }
+}
+@media screen and (max-width:480px) {
+    
+    .box{
+        background-color: red;
+        color: white;
+        width: 30vw;
+    
+        position: relative;
+        top:-20px;
+        border-radius: 10px;
+        
+
+    }
+    .blog-start{
+
+        width: 6vw;
+        height: 20vh;
+        padding-right: 20px;
+    }
+    .blog-index{
+        width: 80vw;
+    }
+    .recent-post  h5{
+        font-size: 1rem;
+    }
+    .recent-post small{
+        font-size: 10px;
+    }
 }
 .box:hover{
     transition: 1s;
@@ -20,10 +56,7 @@
 .bi{
     cursor: pointer;
 }
-.blog-index{
-    height: 50vh;
-    width: 20vw;
-}
+
 .tagbtn{
     background-color: white;
     text-decoration: none;

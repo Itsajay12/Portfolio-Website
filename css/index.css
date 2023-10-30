@@ -97,7 +97,8 @@ i{
 
 @media screen and (max-width: 480px) {
     #header{
-        height: 70vh;
+        height: 40vh;
+        overflow: hidden;
         
     }
 .img-hero{
