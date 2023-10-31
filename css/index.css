@@ -119,12 +119,30 @@ i{
     font-size: 25px;
     font-weight: bold;
 }
+.ft-h2{
+    font-size: 2rem;
+}
+.ft-p{
+    font-size: 1rem;
+    width: 50vw;
+}
+.ft-h5{
+    font-size: 1rem;
+}
 
   }
   @media screen and (min-width:1300px) {
-    .navbar-collapse{
-        display: flex;
-        justify-content: space-evenly;
+  
+    .ft-p{
+        font-size: 1rem;
+        width: 30vw;
+    }
+    .footer-card {
+        width: 20px;
+        height: 8vh;
+    }
+    .footer-card h3{
+        font-size: 20px;
     }
    
   }
