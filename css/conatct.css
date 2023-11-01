@@ -4,3 +4,44 @@
     font-weight: 100;
     text-align: center;
 }
+
+@media screen and (max-width: 480px) {
+    .hero-h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .map{
+        display:none;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .flexy input,.inp3{
+        width: 20rem;
+        height: 3rem;
+
+    }
+}
+@media screen and (min-width: 1300px) {
+    .flexy{
+        display: flex;
+        
+       
+    }
+    .flexy input{
+        width:25rem; 
+        height: 4rem;
+    }
+    .inp2{
+        margin-left: 10px;
+    }
+    .inp3{
+        width: 40rem;
+         height: 4rem;
+    }
+    .logos{
+       padding-left: 130px !important;
+    }
+}
